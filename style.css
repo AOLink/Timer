@@ -7,6 +7,7 @@
 }
 
 
+
 body {
     background-image: url(Hardtalk-Victory.jpg);
 
@@ -20,7 +21,7 @@ body {
 
     align-items: center; /***/
 
-    justify-content: center; /***/
+   /*  justify-content: center;**/
 
 
     min-height: 100vh;
@@ -34,9 +35,9 @@ body {
 h1 {
     font-weight: bolder;
     font-size: 4rem; /*mdn*/
-    margin-top: -25rem;
-     
+    align-items: right; /***/
 
+  margin-top: -0.5rem;
 }
 
 .countdown-container {
