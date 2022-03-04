@@ -42,7 +42,7 @@ h1 {
 
 .countdown-container {
     display: flex;
-
+    margin-left: 21%;
 }
 
 .big-text {
@@ -60,5 +60,4 @@ h1 {
 .countdown-e1 span {
     font-size: 1.4rem;
 }
-
 
