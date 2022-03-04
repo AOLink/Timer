@@ -33,11 +33,14 @@ body {
 
 
 h1 {
-    font-weight: bolder;
+/*     font-weight: bolder;
+       
+ */    
+    font-weight: normal;
     font-size: 4rem; /*mdn*/
     align-items: right; /***/
 
-  margin-top: -0.5rem;
+  margin-top: -0.5rem; /* how is this affecting h1??? */
 }
 
 .countdown-container {
@@ -46,6 +49,7 @@ h1 {
 }
 
 .big-text {
+    font-weight: bold;
     font-size: 6rem;
     line-height: 1;
     margin: 0 2rem;
