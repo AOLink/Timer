@@ -4,16 +4,19 @@ function countDown() {
 
     const dateOfTest = new Date(testDate);
     const currentDate = new Date();
-    const seconds = ( dateOfTest - currentDate * 1000)
+   
+      const seconds = (dateOfTest - currentDate) / 1000; /* convert to seconds */
+         // const seconds = ( dateOfTest - currentDate * 1000)
     //const days = (dateOfTest - currentDate * 24000)
-    const days = (seconds / 3600 / 2)
-    console.log(dateOfTest - currentDate);
-
+    //const days = (seconds / 3600 / 24);** Understand this Logic!
+   //console.log(dateOfTest - currentDate);
+      const days = Math.floor(seconds / 3600 / 24); /*convert to / hours/ days*/
+      console.log(days)        
 };    
 
 // 1st Call 
 
 countDown();
 
-//setInterval(countDown, 1000);
+setInterval(countDown, 1000);
 
