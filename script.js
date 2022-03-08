@@ -11,6 +11,7 @@ function countDown() {
     //const days = (seconds / 3600 / 24);** Understand this Logic!
    //console.log(dateOfTest - currentDate);
       const days = Math.floor(seconds / 3600 / 24); /*convert to / hours/ days*/
+      const hours = Math.floor(seconds / 3600) % 24
       console.log(days)        
 };    
 
