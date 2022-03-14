@@ -24,7 +24,7 @@ body {
    /*  justify-content: center;**/
 
 
-    min-height: 100vh;
+    min-height: 100vh;/*mdn*/ 
 
     font-family: 'Stick No Bills', sans-serif;
     margin: 0;
@@ -38,14 +38,15 @@ h1 {
  */    
     font-weight: normal;
     font-size: 4rem; /*mdn*/
-    align-items: right; /***/
+    align-items: right; 
 
   margin-top: -0.5rem; /* how is this affecting h1??? */
 }
 
 .countdown-container {
     display: flex;
-    margin-left: 21%;
+    /* margin-left: 21%; */
+    
 }
 
 .big-text {
